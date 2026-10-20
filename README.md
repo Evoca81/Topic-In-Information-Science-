@@ -23,4 +23,4 @@ jupyter notebook resolution_study.ipynb   # then Run All
 ```
 ## Regarding Data/Videos
 Because Github limits the maximum capacity for videos so i will upload it to a google drive
-https://drive.google.com/drive/u/0/folders/1nUipJswSnXB3q2pKOzOai_UfKnnwXzjd
+https://drive.google.com/drive/folders/1tHwAG6FniCSG-gwGUiAA2CIdqlHIGs0i
