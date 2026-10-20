@@ -21,4 +21,5 @@ pip install mediapipe opencv-python numpy pandas scipy statsmodels matplotlib ju
 # clips in data/ named like 4Q_Square_D_2026A.MOV
 jupyter notebook resolution_study.ipynb   # then Run All
 ```
-Runtime is about 10 minutes on a 2-core CPU (36 runs: 6 clips × 6 resolutions). `MAX_FRAMES = 300` (the default) reproduces the report.
+## Regarding Data/Videos
+Because Github limits the maximum capacity for videos so i will upload it to a google drive
