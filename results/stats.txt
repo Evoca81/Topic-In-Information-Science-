@@ -1,0 +1,23 @@
+distal (wrists, ankles): Friedman chi2=23.83, p=0.0001; Page L=329.5, p=0.0000; mean PCK by level: 1280px=0.868, 854px=0.849, 640px=0.836, 426px=0.693, 320px=0.651
+middle (elbows, knees): Friedman chi2=22.93, p=0.0001; Page L=328.0, p=0.0000; mean PCK by level: 1280px=0.909, 854px=0.890, 640px=0.877, 426px=0.749, 320px=0.707
+proximal (shoulders, hips): Friedman chi2=18.61, p=0.0009; Page L=321.0, p=0.0000; mean PCK by level: 1280px=0.963, 854px=0.956, 640px=0.948, 426px=0.838, 320px=0.825
+
+                           Mixed Linear Model Regression Results
+===========================================================================================
+Model:                          MixedLM             Dependent Variable:             log_err
+No. Observations:               90                  Method:                         REML   
+No. Groups:                     6                   Scale:                          0.0049 
+Min. group size:                15                  Log-Likelihood:                 83.7720
+Max. group size:                15                  Converged:                      Yes    
+Mean group size:                15.0                                                       
+-------------------------------------------------------------------------------------------
+                                                Coef.  Std.Err.    z    P>|z| [0.025 0.975]
+-------------------------------------------------------------------------------------------
+Intercept                                        0.539    0.181   2.975 0.003  0.184  0.893
+C(grp, Treatment('proximal'))[T.distal]         -0.111    0.238  -0.465 0.642 -0.578  0.356
+C(grp, Treatment('proximal'))[T.middle]         -0.241    0.238  -1.010 0.313 -0.707  0.226
+log2_px                                         -0.247    0.018 -13.649 0.000 -0.282 -0.211
+log2_px:C(grp, Treatment('proximal'))[T.distal]  0.040    0.026   1.568 0.117 -0.010  0.090
+log2_px:C(grp, Treatment('proximal'))[T.middle]  0.048    0.026   1.859 0.063 -0.003  0.098
+Group Var                                        0.026    0.248                            
+===========================================================================================

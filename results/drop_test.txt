@@ -1,0 +1,18 @@
+group                     distal (wrists, ankles)  ...  proximal (shoulders, hips)
+clip                                               ...                            
+2Q_Rectangle_C_2026A.mp4                    0.238  ...                       0.213
+3Q_Rectangle_C_2026A.MOV                    0.127  ...                       0.047
+3Q_Square_D_2026A.mp4                       0.095  ...                       0.007
+4Q_Rectangle_C_2026A.MOV                    0.112  ...                       0.012
+4Q_Square_D_2026A.MOV                       0.553  ...                       0.539
+5Q_Rectangle_A_2026A.MOV                    0.179  ...                       0.007
+
+[6 rows x 3 columns]
+WilcoxonResult(statistic=np.float64(21.0), pvalue=np.float64(0.015625))
+level_px
+320     0.926555
+426     0.929621
+640     0.984693
+854     0.986459
+1280    0.989510
+Name: detect_rate, dtype: float64
